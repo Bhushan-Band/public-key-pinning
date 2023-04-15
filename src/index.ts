@@ -8,3 +8,4 @@ const PublicKeyPinning = registerPlugin<PublicKeyPinningPlugin>('PublicKeyPinnin
 
 export * from './definitions';
 export { PublicKeyPinning };
+export { setPublicKeyPinning, clearPublicKeyPinning } from './public-key-pinning';
